@@ -80,15 +80,17 @@ section .title::after{
 /* navbar styling */
 .navbar{
     position: fixed;
+    background-color: #111;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
+    position: fixed;
     padding: 15px 0;
-    background: crimson;
+    background: #111;
 }
 .navbar .max-width{
     display: flex;
@@ -101,11 +103,11 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: orange;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: orange;
 }
 .navbar .menu li{
     list-style: none;
@@ -113,17 +115,17 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: orange;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: orange;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: orange;
 }
 
 /* menu btn styling */
@@ -137,7 +139,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #111;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -194,18 +196,18 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: orange;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid black;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: orange;
     background: none;
 }
 
@@ -328,7 +330,7 @@ section .title1{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: orange;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -342,7 +344,7 @@ section .title1{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: #111;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -590,7 +592,7 @@ section .title1{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: crimson;
+    color: orange;
     background: none;
 }
 
