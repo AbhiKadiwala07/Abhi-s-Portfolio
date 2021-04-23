@@ -210,6 +210,21 @@ section .title::after{
     color: orange;
     background: none;
 }
+.home__social-icon{
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 30%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.home__social-icon:hover{
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
 
 /* about section styling */
 .about .title::after{
@@ -412,22 +427,23 @@ section .title1{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 60%;
 }
-.skills-content .right .php::before{
-    width: 50%;
-}
+
 .skills-content .right .java::before{
-    width: 70%;
+    width: 60%;
 }
 .skills-content .right .python::before{
-    width: 60%;
+    width: 70%;
+}
+.skills-content .right .mysql::before{
+    width: 50%;
 }
 
 /* teams section styling 
