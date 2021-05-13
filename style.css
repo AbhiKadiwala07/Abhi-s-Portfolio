@@ -297,6 +297,7 @@ section .title1{
     max-width: 100px;
     padding: auto;
     margin: auto;
+
 }
 .about .about-content .certificates{
     width: 30%;
@@ -314,7 +315,7 @@ section .title1{
     transition: all 0.3s ease;
 }
 .about .about-content .certificates a:hover{
-    color: #111;
+    color: #fff;
     background: none;
     margin-top: 5px;
 }
